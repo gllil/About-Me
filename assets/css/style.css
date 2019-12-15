@@ -65,27 +65,31 @@ p {
 
 a {
     color: #777777;
-    margin: 10px;
-      
+    margin: 10px;     
 }
 
 img {
     float: left;
-    margin-right: 10px;
-    
+    margin-right: 10px;    
 }
 
  .footer {
     height: 50px;
     border-top: 8px solid #4aaaa5;
-    color: lightgray;
-    text-align: center;
     background-color: #666666;
-    font-size: 8pt;
-    bottom: 0;
+    text-align: center;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
+ }
+
+ .cr {
+     position: absolute;
+     color: lightgray;
+     font-size: 8pt;
+     margin-bottom: 4px;
+     width: 100%;
+     bottom: 0;
  }
  
