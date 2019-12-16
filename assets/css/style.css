@@ -19,28 +19,36 @@ h1 {
     border-bottom: 2px solid #cccccc;
 }
 
+.headerinfo {
+    width: 960px;
+    margin: 0 auto;
+}
+
 .name {
     position: relative;
-    padding: 20px;
+    padding: 23px;
     background-color:#4aaaa5;
     color: white;
     float: left;
-    font-size: 24pt;
+    font-size: 20pt;
     text-align: center;    
     margin-top: 0;
     width: fit-content;
     bottom: 0;
+    left: 0;
 }
 
 .navbar {
     float: right;
-    padding: 30px;
+    padding-top: 30px;
     margin: 0;
+    color: #777777;
 
 }
 
 .infotitle {
     color:#4aaaa5;
+    font-size: 20pt;
 }
 
 hr {
@@ -51,21 +59,25 @@ hr {
 
 .info {
     clear: both;
-    width: 960px;
-    padding: 10px;
+    width: 920px;
+    padding: 20px;
     background-color: #ffffff;
     margin-bottom: 100px;
     margin: 0 auto;
     line-height: 25px;
 }
 
+ins {
+    opacity: 20%;
+}
 p {
     margin-left: 10px;
 }
 
 a {
     color: #777777;
-    margin: 10px;     
+    margin: 10px;
+    opacity: 90%;     
 }
 
 img {
@@ -86,7 +98,7 @@ img {
 
  .cr {
      position: absolute;
-     color: lightgray;
+     color: darkgray;
      font-size: 8pt;
      margin-bottom: 4px;
      width: 100%;
