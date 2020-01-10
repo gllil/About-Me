@@ -98,4 +98,23 @@ img {
      width: 100%;
      bottom: 0;
  }
- 
+
+@media screen and (max-width: 980px) {
+    .headerinfo,
+    .info { width: 900px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .headerinfo,
+    .info { width: 700px;
+
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .headerinfo,
+    .info { width: 600px;
+
+    }
+}
