@@ -1,6 +1,11 @@
 # About-Me
-This is my professional page. This tells you about me so you can get to know me better. This will also have my portfolio which highlight my skills and accomplishments. 
+This is a template for my professional page. This has a layout of what a potfolio page would look like. This also shows what the contact page would look like. 
 
 The link to the web app:
 https://gllil.github.io/About-Me/
 
+<img src="https://github.com/gllil/About-Me/blob/master/assets/images/Page1.PNG">
+
+<img src="https://github.com/gllil/About-Me/blob/master/assets/images/Page2.PNG">
+
+<img src="https://github.com/gllil/About-Me/blob/master/assets/images/Page3.PNG">
