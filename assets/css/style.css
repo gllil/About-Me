@@ -20,8 +20,9 @@ h1 {
 }
 
 .headerinfo {
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto;
+    display: flexbox;
 }
 
 .name {
@@ -33,7 +34,7 @@ h1 {
     font-size: 20pt;
     text-align: center;    
     margin-top: 0;
-    width: fit-content;
+    min-width: fit-content;
     top: 0;
 }
 
@@ -57,7 +58,7 @@ hr {
 
 .info {
     clear: both;
-    width: 920px;
+    max-width: 920px;
     padding: 20px;
     background-color: #ffffff;
     margin: 0 auto;
@@ -101,20 +102,38 @@ img {
 
 @media screen and (max-width: 980px) {
     .headerinfo,
-    .info { width: 900px;
+    .info { max-width: 900px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .headerinfo,
-    .info { width: 700px;
+    .info { max-width: 700px;
 
     }
 }
 
 @media screen and (max-width: 640px) {
     .headerinfo,
-    .info { width: 600px;
-
+    .info { max-width: 700x;
+        display: block;
+        
+    }
+    .name {
+        display: block;
+        width: 100%;
+        text-align: center;
+      
+    }
+    .navbar {
+        display: block;
+        width: 100%;
+        text-align: center;
+        float: none;
+        margin-top: 60px;
+    }
+    .topborder {
+        height: fit-content;
+        display: block;
     }
 }
