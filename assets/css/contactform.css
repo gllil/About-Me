@@ -14,3 +14,42 @@
     padding: 10px 30px 10px 30px;
 
 }
+
+
+@media screen and (max-width: 980px) {
+    .headerinfo,
+    .info { max-width: 900px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .headerinfo,
+    .info { max-width: 700px;
+
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .headerinfo,
+    .info { max-width: 700x;
+        display: block;
+        
+    }
+    .name {
+        display: block;
+        width: 100%;
+        text-align: center;
+      
+    }
+    .navbar {
+        display: block;
+        width: 100%;
+        text-align: center;
+        float: none;
+        margin-top: 60px;
+    }
+    .topborder {
+        height: fit-content;
+        display: block;
+    }
+}
