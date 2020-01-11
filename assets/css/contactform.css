@@ -6,6 +6,10 @@
     width: 100%;
 }
 
+textarea {
+    width: 918px;
+}
+
 .submit {
     background-color: #4aaaa5;
     border: none;
@@ -20,12 +24,16 @@
     .headerinfo,
     .info { max-width: 900px;
     }
+    textarea {
+        width: 900px;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .headerinfo,
     .info { max-width: 700px;
-
+    }
+    textarea {width: 700px;
     }
 }
 
@@ -51,5 +59,8 @@
     .topborder {
         height: fit-content;
         display: block;
+    }
+    textarea {
+        width: 456px;
     }
 }
